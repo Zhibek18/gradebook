@@ -8,4 +8,4 @@ class Student(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String)
-    grade = Column(Integer)
+    surname = Column(String)

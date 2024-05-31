@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from models.student import Base
+from data.student import Base
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./gradebook.db"
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
